@@ -16,7 +16,7 @@ namespace DataAccess.Concrete.EntityFramework
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
            
-            optionsBuilder.UseMySQL(@"server=localhost;user=root;password=;database=northwindmysql;");
+            optionsBuilder.UseMySQL(@"server=localhost;user=root;password=;database=FOS;");
         }
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
@@ -26,6 +26,7 @@ namespace DataAccess.Concrete.EntityFramework
         public DbSet<User> Users { get; set; }
         public DbSet<UserOperationClaim> UserOperationClaims { get; set; }
         public DbSet<Owner> Owners { get; set; }
+        public DbSet<Food> Foods { get; set; }
 
         
     }   

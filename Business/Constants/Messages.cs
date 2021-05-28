@@ -21,7 +21,10 @@ namespace Business.Constants
         public static string UserRegistered = "Kullanıcı başarıyla kaydedildi";
         public static string AccessTokenCreated="Access token başarıyla oluşturuldu";
 
-       
 
+        public static string FoodAdded = "Food added!";
+        public static string FoodNotFound = "Food not found!";
+        public static string FoodUpdated = "Food updated!";
+        public static string FoodDeleted = "Food Deleted!";
     }
 }

@@ -29,13 +29,8 @@ namespace WebAPI
         {
             
             services.AddControllers();
-            services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
-            {
-                builder.AllowAnyOrigin()
-                    .AllowAnyMethod()
-                    .AllowAnyHeader();
-            }));
-            services.AddCors();
+           
+            
             // services.AddSingleton<IProductService, ProductManager>();
             // services.AddSingleton<IProductDal, EfProductDal>();
             var tokenOptions = Configuration.GetSection("TokenOptions").Get<TokenOptions>();
@@ -72,7 +67,7 @@ namespace WebAPI
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebAPI v1"));
             }
-            app.UseCors("MyPolicy");
+           
 
           //  app.UseCors(builder=>builder.WithOrigins("http://localhost:4200").AllowAnyHeader());
             
