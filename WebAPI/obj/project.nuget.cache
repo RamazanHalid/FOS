@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nN6BhVnSogdvwhvN+CKLAOla9MzF1LYOc6OMwoSDxodqFeJ8Bx7Zm/fXSEK9e4f1UCZsIFsWGtnN8PsmX0Jn4g==",
+  "dgSpecHash": "N2uIUTIPgtE4GLOzbM8B1IgGj9oppToo7ybXyNyyo+Ujq7RU8kn/3NBqgCUlzOLTJg5RQgf1c3nJUWiy3TQhrw==",
   "success": true,
-  "projectFilePath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/WebAPI/WebAPI.csproj",
+  "projectFilePath": "/Users/ramazanhalid/RiderProjects/cem35/WebAPI/WebAPI.csproj",
   "expectedPackageFiles": [
     "/Users/ramazanhalid/.nuget/packages/autofac/6.1.0/autofac.6.1.0.nupkg.sha512",
     "/Users/ramazanhalid/.nuget/packages/autofac.extensions.dependencyinjection/7.1.0/autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

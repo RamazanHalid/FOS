@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ramazanhalid/RiderProjects/MyFinalProject/ConsoleUI/ConsoleUI.csproj": {}
+    "/Users/ramazanhalid/RiderProjects/cem35/ConsoleUI/ConsoleUI.csproj": {}
   },
   "projects": {
-    "/Users/ramazanhalid/RiderProjects/MyFinalProject/Business/Business.csproj": {
+    "/Users/ramazanhalid/RiderProjects/cem35/Business/Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ramazanhalid/RiderProjects/MyFinalProject/Business/Business.csproj",
+        "projectUniqueName": "/Users/ramazanhalid/RiderProjects/cem35/Business/Business.csproj",
         "projectName": "Business",
-        "projectPath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/Business/Business.csproj",
+        "projectPath": "/Users/ramazanhalid/RiderProjects/cem35/Business/Business.csproj",
         "packagesPath": "/Users/ramazanhalid/.nuget/packages/",
-        "outputPath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/Business/obj/",
+        "outputPath": "/Users/ramazanhalid/RiderProjects/cem35/Business/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ramazanhalid/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/ramazanhalid/RiderProjects/MyFinalProject/DataAccess/DataAccess.csproj": {
-                "projectPath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/DataAccess/DataAccess.csproj"
+              "/Users/ramazanhalid/RiderProjects/cem35/DataAccess/DataAccess.csproj": {
+                "projectPath": "/Users/ramazanhalid/RiderProjects/cem35/DataAccess/DataAccess.csproj"
               },
-              "/Users/ramazanhalid/RiderProjects/MyFinalProject/Entities/Entities.csproj": {
-                "projectPath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/Entities/Entities.csproj"
+              "/Users/ramazanhalid/RiderProjects/cem35/Entities/Entities.csproj": {
+                "projectPath": "/Users/ramazanhalid/RiderProjects/cem35/Entities/Entities.csproj"
               }
             }
           }
@@ -96,14 +96,14 @@
         }
       }
     },
-    "/Users/ramazanhalid/RiderProjects/MyFinalProject/ConsoleUI/ConsoleUI.csproj": {
+    "/Users/ramazanhalid/RiderProjects/cem35/ConsoleUI/ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ramazanhalid/RiderProjects/MyFinalProject/ConsoleUI/ConsoleUI.csproj",
+        "projectUniqueName": "/Users/ramazanhalid/RiderProjects/cem35/ConsoleUI/ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/ConsoleUI/ConsoleUI.csproj",
+        "projectPath": "/Users/ramazanhalid/RiderProjects/cem35/ConsoleUI/ConsoleUI.csproj",
         "packagesPath": "/Users/ramazanhalid/.nuget/packages/",
-        "outputPath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/ConsoleUI/obj/",
+        "outputPath": "/Users/ramazanhalid/RiderProjects/cem35/ConsoleUI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ramazanhalid/.nuget/NuGet/NuGet.Config"
@@ -118,8 +118,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/ramazanhalid/RiderProjects/MyFinalProject/Business/Business.csproj": {
-                "projectPath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/Business/Business.csproj"
+              "/Users/ramazanhalid/RiderProjects/cem35/Business/Business.csproj": {
+                "projectPath": "/Users/ramazanhalid/RiderProjects/cem35/Business/Business.csproj"
               }
             }
           }
@@ -161,14 +161,14 @@
         }
       }
     },
-    "/Users/ramazanhalid/RiderProjects/MyFinalProject/Core/Core.csproj": {
+    "/Users/ramazanhalid/RiderProjects/cem35/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ramazanhalid/RiderProjects/MyFinalProject/Core/Core.csproj",
+        "projectUniqueName": "/Users/ramazanhalid/RiderProjects/cem35/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/Core/Core.csproj",
+        "projectPath": "/Users/ramazanhalid/RiderProjects/cem35/Core/Core.csproj",
         "packagesPath": "/Users/ramazanhalid/.nuget/packages/",
-        "outputPath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/Core/obj/",
+        "outputPath": "/Users/ramazanhalid/RiderProjects/cem35/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ramazanhalid/.nuget/NuGet/NuGet.Config"
@@ -258,14 +258,14 @@
         }
       }
     },
-    "/Users/ramazanhalid/RiderProjects/MyFinalProject/DataAccess/DataAccess.csproj": {
+    "/Users/ramazanhalid/RiderProjects/cem35/DataAccess/DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ramazanhalid/RiderProjects/MyFinalProject/DataAccess/DataAccess.csproj",
+        "projectUniqueName": "/Users/ramazanhalid/RiderProjects/cem35/DataAccess/DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/DataAccess/DataAccess.csproj",
+        "projectPath": "/Users/ramazanhalid/RiderProjects/cem35/DataAccess/DataAccess.csproj",
         "packagesPath": "/Users/ramazanhalid/.nuget/packages/",
-        "outputPath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/DataAccess/obj/",
+        "outputPath": "/Users/ramazanhalid/RiderProjects/cem35/DataAccess/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ramazanhalid/.nuget/NuGet/NuGet.Config"
@@ -280,11 +280,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/ramazanhalid/RiderProjects/MyFinalProject/Core/Core.csproj": {
-                "projectPath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/Core/Core.csproj"
+              "/Users/ramazanhalid/RiderProjects/cem35/Core/Core.csproj": {
+                "projectPath": "/Users/ramazanhalid/RiderProjects/cem35/Core/Core.csproj"
               },
-              "/Users/ramazanhalid/RiderProjects/MyFinalProject/Entities/Entities.csproj": {
-                "projectPath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/Entities/Entities.csproj"
+              "/Users/ramazanhalid/RiderProjects/cem35/Entities/Entities.csproj": {
+                "projectPath": "/Users/ramazanhalid/RiderProjects/cem35/Entities/Entities.csproj"
               }
             }
           }
@@ -330,14 +330,14 @@
         }
       }
     },
-    "/Users/ramazanhalid/RiderProjects/MyFinalProject/Entities/Entities.csproj": {
+    "/Users/ramazanhalid/RiderProjects/cem35/Entities/Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ramazanhalid/RiderProjects/MyFinalProject/Entities/Entities.csproj",
+        "projectUniqueName": "/Users/ramazanhalid/RiderProjects/cem35/Entities/Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/Entities/Entities.csproj",
+        "projectPath": "/Users/ramazanhalid/RiderProjects/cem35/Entities/Entities.csproj",
         "packagesPath": "/Users/ramazanhalid/.nuget/packages/",
-        "outputPath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/Entities/obj/",
+        "outputPath": "/Users/ramazanhalid/RiderProjects/cem35/Entities/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ramazanhalid/.nuget/NuGet/NuGet.Config"
@@ -352,8 +352,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/ramazanhalid/RiderProjects/MyFinalProject/Core/Core.csproj": {
-                "projectPath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/Core/Core.csproj"
+              "/Users/ramazanhalid/RiderProjects/cem35/Core/Core.csproj": {
+                "projectPath": "/Users/ramazanhalid/RiderProjects/cem35/Core/Core.csproj"
               }
             }
           }

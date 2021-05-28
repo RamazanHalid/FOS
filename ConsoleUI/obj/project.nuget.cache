@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vl2DLK2hM8WLPv8ryDrsdpMwUdk++igHcjesSV3Af1B8t/Ea/t2APyZx48xn9xqxUMtRcB3butVmgbPeTzk/9g==",
+  "dgSpecHash": "hxTftdeLYmdWRBySrZ0NEwyzsht+jh6d5Kvysn7jz1BNyYStqK+WJCWo7s8e/3NH/9DuOckY7luH0nZPuHs32Q==",
   "success": true,
-  "projectFilePath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/ConsoleUI/ConsoleUI.csproj",
+  "projectFilePath": "/Users/ramazanhalid/RiderProjects/cem35/ConsoleUI/ConsoleUI.csproj",
   "expectedPackageFiles": [
     "/Users/ramazanhalid/.nuget/packages/autofac/6.1.0/autofac.6.1.0.nupkg.sha512",
     "/Users/ramazanhalid/.nuget/packages/autofac.extensions.dependencyinjection/7.1.0/autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

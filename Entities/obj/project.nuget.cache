@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EWboscL1xv6xFNF9uTdYZGbfD2yPAUq5P2JIBCnkuBtJLfQrUzADaijHrrGObsEf3I+LMt739JJKAA7TneWNwA==",
+  "dgSpecHash": "vCYL6Q52Qfjfjgd3hXbMeBC/xDwtJUOmkRTBU+qftXLUc55+f1jq8loqFAc14xKGVKLnsYBQk3vuTny45jSluA==",
   "success": true,
-  "projectFilePath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/Entities/Entities.csproj",
+  "projectFilePath": "/Users/ramazanhalid/RiderProjects/cem35/Entities/Entities.csproj",
   "expectedPackageFiles": [
     "/Users/ramazanhalid/.nuget/packages/autofac/6.1.0/autofac.6.1.0.nupkg.sha512",
     "/Users/ramazanhalid/.nuget/packages/autofac.extensions.dependencyinjection/7.1.0/autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

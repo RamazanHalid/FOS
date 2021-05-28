@@ -8392,11 +8392,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ramazanhalid/RiderProjects/MyFinalProject/ConsoleUI/ConsoleUI.csproj",
+      "projectUniqueName": "/Users/ramazanhalid/RiderProjects/cem35/ConsoleUI/ConsoleUI.csproj",
       "projectName": "ConsoleUI",
-      "projectPath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/ConsoleUI/ConsoleUI.csproj",
+      "projectPath": "/Users/ramazanhalid/RiderProjects/cem35/ConsoleUI/ConsoleUI.csproj",
       "packagesPath": "/Users/ramazanhalid/.nuget/packages/",
-      "outputPath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/ConsoleUI/obj/",
+      "outputPath": "/Users/ramazanhalid/RiderProjects/cem35/ConsoleUI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ramazanhalid/.nuget/NuGet/NuGet.Config"
@@ -8411,8 +8411,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/ramazanhalid/RiderProjects/MyFinalProject/Business/Business.csproj": {
-              "projectPath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/Business/Business.csproj"
+            "/Users/ramazanhalid/RiderProjects/cem35/Business/Business.csproj": {
+              "projectPath": "/Users/ramazanhalid/RiderProjects/cem35/Business/Business.csproj"
             }
           }
         }

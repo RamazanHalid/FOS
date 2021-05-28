@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u3R2KpZa4oQrdukDSwxP3YyXlfROkwx13EkVEF5xgsLrQR/AL8Al+Rbmp+0OQZsWa0GBc4cPGXr8LF5HcSqSWQ==",
+  "dgSpecHash": "PHOslKKUx2SBa8Ge+QxO8gEvFFj5r9LuFOmeHfvUnF7Qo6fK7GTgy5XdvJEU+K8XHRAv03hdlW57LCfOfbxQAg==",
   "success": true,
-  "projectFilePath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/DataAccess/DataAccess.csproj",
+  "projectFilePath": "/Users/ramazanhalid/RiderProjects/cem35/DataAccess/DataAccess.csproj",
   "expectedPackageFiles": [
     "/Users/ramazanhalid/.nuget/packages/autofac/6.1.0/autofac.6.1.0.nupkg.sha512",
     "/Users/ramazanhalid/.nuget/packages/autofac.extensions.dependencyinjection/7.1.0/autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
