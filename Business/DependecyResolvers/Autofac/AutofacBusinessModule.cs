@@ -29,7 +29,10 @@ namespace Business.DependecyResolvers.Autofac
             
             
             builder.RegisterType<FoodManager>().As<IFoodService>();
-            builder.RegisterType<EfFoodDal>().As<IFoodDal>();
+            builder.RegisterType<EfFoodDal>().As<IFoodDal>();     
+            
+            builder.RegisterType<ShippingCartManager>().As<IShippingCartService>();
+            builder.RegisterType<EfShippingCartDal>().As<IShippingCartDal>();
 
             builder.RegisterType<AuthManager>().As<IAuthService>();
             builder.RegisterType<JwtHelper>().As<ITokenHelper>();
