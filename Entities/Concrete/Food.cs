@@ -11,4 +11,5 @@ namespace Entities.Concrete
         public string Content { get; set; }
         public string PrepareTime { get; set; }
     }
+    // Alperen Kaçmaz
 }
