@@ -8,16 +8,14 @@ using MySql.Data.MySqlClient;
 namespace DataAccess.Concrete.EntityFramework
 {
     //Context : Db tabloları ile proje classlarını bağlamak
-    
-    public class NorthwindContext:DbContext
+
+    public class NorthwindContext : DbContext
     {
-        
-        
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-           
             optionsBuilder.UseMySQL(@"server=localhost;user=root;password=;database=FOS;");
         }
+
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Customer> Customers { get; set; }
@@ -27,7 +25,6 @@ namespace DataAccess.Concrete.EntityFramework
         public DbSet<UserOperationClaim> UserOperationClaims { get; set; }
         public DbSet<Owner> Owners { get; set; }
         public DbSet<Food> Foods { get; set; }
-
-        
-    }   
+        public DbSet<ShippingCart> ShippingCarts { get; set; }
+    }
 }
