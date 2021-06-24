@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using Business.Abstract;
+using Business.Constants;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -22,22 +23,36 @@ namespace Business.Concrete
 
         public IDataResult<Restaurant> GetBytId(int restaurantId)
         {
-            throw new System.NotImplementedException();
+            return new SuccessDataResult<Restaurant>(_restaurantDal.Get(r => r.Id == restaurantId));
         }
 
         public IResult Add(Restaurant restaurant)
         {
-            throw new System.NotImplementedException();
+            _restaurantDal.Add(restaurant);
+            return new SuccessResult(Messages.RestaurantAdded);
         }
 
         public IResult Update(Restaurant restaurant)
         {
-            throw new System.NotImplementedException();
+            var result = _restaurantDal.Get(r => r.Id == restaurant.Id);
+            if (result==null)
+            {
+                return new ErrorResult(Messages.RestaurantNotFound);
+            }
+            _restaurantDal.Update(restaurant);
+            return new SuccessResult(Messages.RestaurantUpdated);
         }
 
         public IResult Delete(Restaurant restaurant)
         {
-            throw new System.NotImplementedException();
+            var result = _restaurantDal.Get(r => r.Id == restaurant.Id);
+            if (result == null)
+            {
+                return new ErrorResult(Messages.RestaurantNotFound);
+            }
+
+            _restaurantDal.Delete(restaurant);
+            return new SuccessResult(Messages.RestaurantDeleted);
         }
     }
 }

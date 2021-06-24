@@ -29,5 +29,9 @@ namespace Business.Constants
         public static string ShippingCartAdded = "Shipping Cart Added!";
         public static string ShippingCartNotFound = "Shipping Cart not found";
         public static string ShippingCartUpdated = "Shipping Cart updated!";
+        public static string RestaurantAdded = "Restaurant Added!";
+        public static string RestaurantNotFound = "Restaurant not found!";
+        public static string RestaurantUpdated = "Restaurant Added!";
+        public static string RestaurantDeleted = "Restaurant deleted!";
     }
 }

@@ -26,5 +26,7 @@ namespace DataAccess.Concrete.EntityFramework
         public DbSet<Owner> Owners { get; set; }
         public DbSet<Food> Foods { get; set; }
         public DbSet<ShippingCart> ShippingCarts { get; set; }
+        public DbSet<Restaurant> Restaurants { get; set; }
+        
     }
 }
