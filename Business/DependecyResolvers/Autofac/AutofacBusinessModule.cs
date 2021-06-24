@@ -33,6 +33,9 @@ namespace Business.DependecyResolvers.Autofac
             
             builder.RegisterType<ShippingCartManager>().As<IShippingCartService>();
             builder.RegisterType<EfShippingCartDal>().As<IShippingCartDal>();
+            
+            builder.RegisterType<RestaurantManager>().As<IRestaurantService>();
+            builder.RegisterType<EfRestaurantDal>().As<IRestaurantDal>();
 
             builder.RegisterType<AuthManager>().As<IAuthService>();
             builder.RegisterType<JwtHelper>().As<ITokenHelper>();

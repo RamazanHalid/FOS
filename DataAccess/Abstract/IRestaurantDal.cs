@@ -1,10 +1,9 @@
-
 using Core.DataAccess;
 using Entities.Concrete;
 
 namespace DataAccess.Abstract
 {
-    public interface IShippingCartDal:IEntityRepository<ShippingCart>
+    public interface IRestaurantDal:IEntityRepository<Restaurant>
     {
         
     }
