@@ -38,5 +38,17 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
+        [HttpGet("getshippingcartdetails")]
+        public IActionResult GetShippingCartDetails()
+        {
+            var result = _shippingCartService.GetShippingCartDetails();
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+
+            return BadRequest(result);
+        }
+
     }
 }
