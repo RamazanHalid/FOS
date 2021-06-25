@@ -4,6 +4,7 @@ using Business.Constants;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 
 namespace Business.Concrete
 {
@@ -53,6 +54,11 @@ namespace Business.Concrete
             }
             _shippingCartDal.Delete(shippingCart);
             return new SuccessResult(Messages.FoodDeleted);
+        }
+
+        public IDataResult<List<ShippingCartDetailDto> > GetShippingCartDetails()
+        {
+            return new SuccessDataResult<List<ShippingCartDetailDto>>(_shippingCartDal.GetShippingCartDetails());
         }
     }
 }
