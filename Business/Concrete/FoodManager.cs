@@ -1,8 +1,10 @@
+using System;
 using System.Collections.Generic;
 using Business.Abstract;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
+using Core.Utilities.Business;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -28,11 +30,17 @@ namespace Business.Concrete
             return new SuccessDataResult<Food>(_foodDal.Get(f => f.Id == foodId));
         }
 
+        
         [ValidationAspect(typeof(FoodValidator))]
         public IResult Add(Food food)
         {
-           _foodDal.Add(food);
-           return new SuccessResult(Messages.FoodAdded);
+            var result = BusinessRules.Run(CheckTimeForStateRules());
+            if (result != null)
+            {
+                return result;
+            }
+            _foodDal.Add(food);
+            return new SuccessResult(Messages.FoodAdded);
         }
 
         public IResult Update(Food food)
@@ -56,5 +64,16 @@ namespace Business.Concrete
             _foodDal.Delete(food);
             return new SuccessResult(Messages.FoodDeleted);
         }
+
+        private IResult CheckTimeForStateRules()
+        {
+            if (DateTime.Now.Hour >= 15 && DateTime.Now.Hour <= 5)
+            {
+                return new ErrorResult(Messages.StateRules);
+            }
+
+            return new SuccessResult();
+        }
+        
     }
 }

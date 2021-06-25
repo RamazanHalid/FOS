@@ -37,5 +37,6 @@ namespace Business.Constants
         public static string FoodListNotFound = "Food list not found!";
         public static string FoodListUpdated = "Food list updated!";
         public static string FoodListDeleted = "Food list Deleted";
+        public static string StateRules = "Time to closing for pandemic!";
     }
 }

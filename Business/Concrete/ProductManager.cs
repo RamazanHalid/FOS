@@ -34,7 +34,7 @@ namespace Business.Concrete
             _categoryService = categoryService;
         }
 
-        //[CacheAspect]// key, value
+        [CacheAspect]// key, value
          public IDataResult<List<Product>> GetAll()
         {
             //İş kodları buraya yaszılır (if-else)
