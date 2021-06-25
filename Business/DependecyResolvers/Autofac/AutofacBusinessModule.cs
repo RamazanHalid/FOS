@@ -37,6 +37,9 @@ namespace Business.DependecyResolvers.Autofac
             builder.RegisterType<RestaurantManager>().As<IRestaurantService>();
             builder.RegisterType<EfRestaurantDal>().As<IRestaurantDal>();
 
+            builder.RegisterType<FoodListManager>().As<IFoodListService>();
+            builder.RegisterType<EfFoodListDal>().As<IFoodListDal>();
+            
             builder.RegisterType<AuthManager>().As<IAuthService>();
             builder.RegisterType<JwtHelper>().As<ITokenHelper>();
 

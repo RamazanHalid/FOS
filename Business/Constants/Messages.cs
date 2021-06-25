@@ -33,5 +33,9 @@ namespace Business.Constants
         public static string RestaurantNotFound = "Restaurant not found!";
         public static string RestaurantUpdated = "Restaurant Added!";
         public static string RestaurantDeleted = "Restaurant deleted!";
+        public static string FoodListAdded = "Food list added!";
+        public static string FoodListNotFound = "Food list not found!";
+        public static string FoodListUpdated = "Food list updated!";
+        public static string FoodListDeleted = "Food list Deleted";
     }
 }
