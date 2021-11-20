@@ -27,3 +27,12 @@ Use-Case Model
 	Use Case
 <br>
 ![use case](https://user-images.githubusercontent.com/42031794/142738185-757562ff-7104-4875-ab75-3950d780c9d8.png)
+
+Tools used in this project:
+-Language: C#.
+-Platform: Microsoft .NET CORE.
+-Database: MySQL.
+-API: RESTful API.
+-Frameworks: Entity Framework, Autofac. -Architecture, Principles, Patterns and others : Layered System, SOLID principles, Constructor Injection, Object Oriented Programming(OOP), Aspect Oriented Programming(AOP), Dependency Injection(Autofac) and IoC(Autofac) container.
+-Security: Json Web Token(JWT), Hashing, Encryption, Transaction management and Validation.
+-Speed: Caching, Performance Management.
