@@ -1,12 +1,13 @@
 # FOS
 Food Order System
-1.1   	Purpose <br>
+ 
+       Purpose 
  
 This paper was created by Food Order System developers to provide brief information about the product for users and detailed technical descriptions to team developers, product designers, marketing team colleagues, and other community developers for further improvements.
  <br>
  
 
-1.2   	Product Scope<br>
+   	Product Scope
 
 This product is designed for interacting with customers to service providers rapidly and securely online to provide their orders. Products especially evolved to deliver food orders to restaurants, coffee shops from customers.
  
@@ -16,7 +17,7 @@ Restaurant or coffee shop orders can reach customers who don’t know about thei
 
 <br>
   
- 	1.3	Intended Audience and Use <br>
+ 	1.3	Intended Audience and Use 
 
 Due to Covid-19 pandemic issues showed all humanity physical points of sale are moving towards becoming an  ‘experience center ’ for consumers. This means people commonly choose to get good services from their home, instead of going to physical stores.
 This product can seem like an interface for delivering goods and can be implemented for other business models. Such as online shopping, groceries, etc.  
