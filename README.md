@@ -17,13 +17,13 @@ Restaurant or coffee shop orders can reach customers who don’t know about thei
 
 <br>
   
- 	1.3	Intended Audience and Use 
+	Intended Audience and Use 
 
 Due to Covid-19 pandemic issues showed all humanity physical points of sale are moving towards becoming an  ‘experience center ’ for consumers. This means people commonly choose to get good services from their home, instead of going to physical stores.
 This product can seem like an interface for delivering goods and can be implemented for other business models. Such as online shopping, groceries, etc.  
 
 <br>
 Use-Case Model
-	6.1 Use Case
+	Use Case
 <br>
 ![use case](https://user-images.githubusercontent.com/42031794/142738185-757562ff-7104-4875-ab75-3950d780c9d8.png)
