@@ -26,7 +26,7 @@ This product can seem like an interface for delivering goods and can be implemen
 Use-Case Model
 	Use Case
 <br>
-![use case](https://user-images.githubusercontent.com/42031794/142738185-757562ff-7104-4875-ab75-3950d780c9d8.png)
+<img src="https://user-images.githubusercontent.com/42031794/142738185-757562ff-7104-4875-ab75-3950d780c9d8.png" />
 
 Tools used in this project: <br>
     -Language: C#.<br>
