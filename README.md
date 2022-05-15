@@ -1,6 +1,8 @@
 # FOS
 Food Order System
  
+ Video Link: https://www.youtube.com/watch?v=WGgHLTSWcoE&t=336s
+ 
        Purpose 
  
 This paper was created by Food Order System developers to provide brief information about the product for users and detailed technical descriptions to team developers, product designers, marketing team colleagues, and other community developers for further improvements.
